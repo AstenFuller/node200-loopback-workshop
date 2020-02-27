@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "test": "mocha test/*.spec.js",
+    "test": "NODE_ENV=production mocha test/*.spec.js",
     "posttest": "npm run lint"
   },
   "dependencies": {
