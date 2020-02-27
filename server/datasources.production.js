@@ -6,6 +6,6 @@ module.exports = {
   'MongoDB': {
     'name': 'MongoDB',
     'connector': 'mongodb',
-    'url': 'mongodb://localhost/loopback-workshop-dev',
+    'url': process.env.MONGODB_URI,
   },
 };
