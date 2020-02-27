@@ -1,0 +1,31 @@
+{
+  "name": "team",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "market": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "players": {
+      "type": "hasMany",
+      "model": "player",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
