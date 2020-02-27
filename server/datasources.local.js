@@ -6,7 +6,7 @@ module.exports = {
     "MongoDB": {
       "host": "",
       "port": 0,
-      "url": "",
+      "url": "mongodb://localhost/loopback-workshop-dev",
       "database": "loopback-workshop-dev",
       "password": "",
       "name": "MongoDB",
